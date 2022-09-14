@@ -1,0 +1,139 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#hero {
+  padding-top: 6rem;
+}
+@media (min-width: 840px) {
+  #hero {
+    padding-top: 10rem;
+  }
+}
+
+.brand_name {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+@media (min-width: 840px) {
+  .brand_name {
+    font-size: 60px;
+  }
+}
+
+.break {
+  display: block;
+}
+
+.ani_one {
+  -webkit-animation-name: up-and-down;
+          animation-name: up-and-down;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  transform: translateY(-60px);
+}
+
+@-webkit-keyframes up-and-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  80% {
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-60);
+  }
+}
+
+@keyframes up-and-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  80% {
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-60);
+  }
+}
+a {
+  text-decoration: none;
+}
+
+.shop-btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-color: #61B0B7;
+}
+
+.join_btn {
+  background-color: #61B0B7;
+  border-color: #61B0B7;
+  color: #fff;
+}
+
+.join_btn:hover {
+  background-color: #fff;
+  border-color: #61B0B7;
+  color: #61B0B7;
+}
+
+.shop-btn:hover {
+  background-color: #61B0B7;
+  color: #fff;
+}
+
+#dark_section {
+  background-color: rgba(156, 156, 156, 0.068);
+  width: 100%;
+}
+
+#blue_section {
+  background-color: #7b94c9;
+}
+
+.accent_text {
+  color: #7b94c9;
+}
+
+.accent_button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-color: #61B0B7;
+  background-color: #7b94c9;
+  color: #fff;
+}
+
+.sidebyside {
+  display: inline-block;
+}
+
+.mobile_hero_img {
+  margin-top: 50px;
+}
+@media (min-width: 840px) {
+  .mobile_hero_img {
+    margin-top: 0;
+  }
+}
+
+.form-head {
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.form-sub-head {
+  font-size: 28px;
+  color: #7b94c9;
+}
+
+.link_p {
+  font-size: 10px;
+}/*# sourceMappingURL=main.css.map */
